@@ -17,10 +17,10 @@ import {
 import { EntityProvider } from '@wordpress/core-data';
 import {
 	__experimentalEditorSkeleton as EditorSkeleton,
-	__experimentalFullscreenMode as FullscreenMode,
 	__unstableEditorStyles as EditorStyles,
 } from '@wordpress/block-editor';
 import { useViewportMatch } from '@wordpress/compose';
+import { __experimentalFullscreenMode as FullscreenMode } from '@wordpress/interface';
 
 /**
  * Internal dependencies
